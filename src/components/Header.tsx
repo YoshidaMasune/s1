@@ -5,27 +5,27 @@ import bg_curvy_desktop from '../assets/images/bg-curvy-mobile.svg'
 function Header() {
   return (
       <header className="" >
-      <div className="bag-img relative ">
-        <img src={illustration} alt="" className="w-full" />
-        <img src={bg_curvy_desktop} alt="" className="absolute -bottom-16 w-full" />
+      <div className="bag-img relative bg-slate-800">
+        <img src={illustration} alt="" className="w-4/5 mx-auto relative top-6 z-20" />
+        <img src={bg_curvy_desktop} alt="" className="absolute  w-full  bg-slate-800" />
       </div>
-      <article className="text-center text-white ">
-        <h1 className="text-2xl font-semibold relative">
+      <article className="text-center text-white relative mt-10">
+        <h1 className="text-3xl font-semibold">
           All your files in one secure
           <br />
           location, accessible
           <br />
           anywhere.
         </h1>
-        <p>
+        <p className="mt-2">
           fyle stures alll your most inportant files in <br/>
           one secuie locatuin.Access them wherever<br /> 
           you need, share and collaborate with friends,<br />
           fanily, and co-workers.
         </p>
-        <button className="bg-sky-600 text-center w-3/4 mx-auto py-5 rounded-full">
-         Get Started
-         </button>
+        <button className="bg-cyan-400 text-center w-3/4 mx-auto py-5 rounded-full mt-10">
+          Get Started
+        </button>
       </article>
     </header>
   );

@@ -3,7 +3,7 @@ import logo from '../assets/images/logo.svg'
 
 function Navbar() {
   return (
-    <nav className='flex items-center justify-between py-7 px-5 text-white'>
+    <nav className=' bg-slate-800 flex items-center justify-between py-7 px-5 text-white'>
       <div>
          <img src={logo} alt="Fylo logo" className='w-3/5'/>
       </div>
