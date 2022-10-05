@@ -9,8 +9,8 @@ function Header() {
         <img src={illustration} alt="" className="w-4/5 mx-auto relative top-6 z-20" />
         <img src={bg_curvy_desktop} alt="" className="absolute  w-full  bg-slate-800" />
       </div>
-      <article className="text-center text-white relative mt-10">
-        <h1 className="text-3xl font-semibold">
+      <article className="text-center text-white relative mt-10 px-10">
+        <h1 className="text-2xl font-semibold">
           All your files in one secure
           <br />
           location, accessible
@@ -23,7 +23,7 @@ function Header() {
           you need, share and collaborate with friends,<br />
           fanily, and co-workers.
         </p>
-        <button className="bg-cyan-400 text-center w-3/4 mx-auto py-5 rounded-full mt-10">
+        <button className="bg-cyan-400 text-center w-3/4 mx-auto py-4 rounded-full mt-10">
           Get Started
         </button>
       </article>

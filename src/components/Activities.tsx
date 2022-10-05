@@ -38,9 +38,9 @@ const Act: React.FC<ActT> = (props) => {
   return (
     <div className='flex flex-col items-center text-center text-white'>
       <img src={img} alt="" className='w-2/12 h-3/4' />
-      <article className='px-8 mt-10'>
-        <h2 className='font-bold tracking-wider'>{title}</h2>
-        <p>{info}</p>
+      <article className='mt-9'>
+        <h2 className='font-bold text-lg tracking-wider'>{title}</h2>
+        <p className='text-sm mt-1'>{info}</p>
       </article>
     </div>
   )
